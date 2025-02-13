@@ -1,0 +1,427 @@
+:root {
+  --paragraph-font: "Roboto", sans-serif;
+  --subtitle-font: "Poppins", sans-serif;
+  --large-title-font: "Playfair Display", serif;
+  --hover-transition: all 250ms ease-in-out;
+}
+body {
+  color: #ffffff;
+  background: black;
+}
+.page-hero-text a,
+.introduction a,
+.food-cards a,
+.restautant-cards a,
+.activities-cards a {
+  font-family: var(--paragraph-font);
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 16px 32px;
+  background: rgb(99, 91, 231);
+  border-radius: 100px;
+  transition: var(--hover-transition);
+  margin: 9px;
+}
+
+img {
+  filter: brightness(90%);
+  border-radius: 5px;
+  transition: var(--hover-transition);
+}
+img:hover {
+  filter: brightness(100%);
+}
+small {
+  font-size: 13px;
+}
+strong {
+  font-size: 27px;
+}
+.img-1-to-1-ratio {
+  aspect-ratio: 1/1;
+  filter: brightness(70%);
+}
+.title-content-flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+.title-content-centered {
+  display: flex;
+  justify-content: center;
+}
+.new-page-margin-top {
+  margin-top: 102px;
+}
+.japan-logo {
+  max-width: 35px;
+  filter: brightness(100%);
+}
+.dropdown-menu {
+  background: rgb(33, 37, 41);
+}
+.dropdown-item {
+  color: white;
+}
+.pageHero {
+  text-align: center;
+  background: linear-gradient(
+      360deg,
+      #030504 0%,
+      rgba(2, 4, 3, 0.3) 51.55%,
+      rgba(11, 6, 32, 0) 100%
+    ),
+    url(pagehero-bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.activities-pageHero {
+  text-align: center;
+  background: linear-gradient(
+      360deg,
+      #030504 0%,
+      rgba(2, 4, 3, 0.3) 51.55%,
+      rgba(11, 6, 32, 0) 100%
+    ),
+    url(pagehero-bg-2-senbon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.booknow-pageHero {
+  text-align: center;
+  background: linear-gradient(
+      360deg,
+      #030504 0%,
+      rgba(2, 4, 3, 0.3) 51.55%,
+      rgba(11, 6, 32, 0) 100%
+    ),
+    url(airport.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.page-hero-text {
+  margin: 0 auto;
+}
+.countryTitle {
+  justify-content: center;
+}
+.bodyContainer {
+  margin: 15px;
+}
+.travelTitle {
+  font-family: var(--paragraph-font);
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding-top: 139px;
+}
+.countryTitle {
+  font-family: var(--large-title-font);
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-top: 2px;
+  text-transform: uppercase;
+}
+.countrySubtitle {
+  font-family: var(--paragraph-font);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+.spotifyEmbedContainer {
+  max-width: 500px;
+  display: block;
+  margin: 40px auto;
+}
+.spotifyPlaylist {
+  width: 100%;
+}
+.introduction-page-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 55px;
+}
+.night-kyoto {
+  width: 100%;
+}
+.introduction {
+  margin: auto 15px;
+}
+
+.poppins-subtitles {
+  font-family: var(--subtitle-font);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #5bd5e3;
+  padding: 2px;
+  background: rgba(91, 213, 227, 0.15);
+}
+.poppins-subtitles-white {
+  font-family: var(--subtitle-font);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 2px;
+  background: rgba(239, 253, 255, 0.15);
+  border-radius: 8px;
+}
+.introduction-title {
+  font-family: var(--large-title-font);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.5;
+}
+.introduction-paragraph {
+  font-family: var(--paragraph-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(221, 221, 221);
+  margin: 18px auto 31px auto;
+}
+.food-page {
+  background: linear-gradient(
+      360deg,
+      rgba(3, 5, 4, 0.9) 0%,
+      rgba(2, 4, 3, 0.7) 51.55%,
+      rgba(11, 6, 32, 0.6) 100%
+    ),
+    url(food-page-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.subtitle-margin-top {
+  margin-top: 102px;
+}
+.food-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 50px 87px;
+  grid-gap: 30px;
+}
+.card {
+  background: rgb(33, 37, 41);
+  color: white;
+  box-shadow: -1px 10px 32px 12px rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  border-width: 0;
+  opacity: 0.9;
+  transition: var(--hover-transition);
+}
+
+.card:hover {
+  opacity: 1;
+}
+.youtube-embeds {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 15px 15px 0px 0px;
+  filter: grayscale(1);
+  transition: var(--hover-transition);
+}
+.youtube-embeds:hover,
+.map-embeds:hover {
+  filter: grayscale(0);
+}
+.card-text-container {
+  margin: 24px 32px 43px 32px;
+}
+.card-titles {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--paragraph-font);
+}
+.card-paragraphs {
+  font-family: var(--paragraph-font);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.card-subtitles {
+  font-family: var(--paragraph-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.links-rows {
+  display: flex;
+  justify-content: center;
+}
+.restaurants-page,
+.activities-page {
+  background: linear-gradient(
+    360deg,
+    rgba(3, 5, 4, 0.894) 50%,
+    rgba(2, 4, 3, 0.818) 70%,
+    rgba(11, 6, 32, 0.6) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.restautant-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 90px 87px;
+}
+.left-card {
+  border-radius: 15px 0 0 15px;
+}
+.restaurants-images {
+  border-radius: 15px 0px 0px 0px;
+}
+.map-embeds {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 0 15px 15px 0;
+  filter: grayscale(1);
+  transition: var(--hover-transition);
+}
+
+.activities-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 90px 87px;
+  grid-gap: 30px;
+}
+
+.img-adjustments {
+  width: 100%;
+  filter: contrast(110%);
+}
+.img-hover-to-show-text {
+  color: #ffffff00;
+  font-weight: 600;
+  font-size: 18px;
+  transition: var(--hover-transition);
+}
+.img-hover-to-show-text:hover {
+  color: #ffffff;
+}
+.card-title {
+  color: #ffffff;
+  font-weight: 700;
+}
+.footer-container {
+  background: linear-gradient(
+      360deg,
+      rgb(3 5 4 / 31%) 10%,
+      rgb(2 4 3 / 63%) 40%,
+      rgb(0 0 0) 100%
+    ),
+    url(restaurant-page-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  font-family: var(--subtitle-font);
+}
+.footer-wholeGrid {
+  margin: 80px 100px 0 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.booknow-wholeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 26px 130px;
+}
+.logo-img-adjustment {
+  width: 100%;
+  filter: brightness(130%);
+}
+.footer-grids {
+  margin: 30px 0px;
+}
+.footer-titles {
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 19px;
+}
+.footer-container a {
+  text-decoration: none;
+  color: #5bd5e3;
+}
+.footer-paragraphs {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+.page-directory-links {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 21px;
+  color: #5bd5e3;
+}
+@media (max-width: 992px) {
+  .introduction-page-grid,
+  .food-cards-grid,
+  .restautant-cards-grid,
+  .activities-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .restautant-cards,
+  .map-embeds,
+  .restaurants-images {
+    border-radius: 15px;
+  }
+  .booknow-wholeGrid {
+    padding: 20px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 774px) {
+  .countryTitle {
+    font-size: 66px;
+  }
+  .countrySubtitle {
+    font-size: 24px;
+  }
+  .food-cards-grid,
+  .restautant-cards-grid,
+  .activities-cards-grid,
+  .booknow-wholeGrid {
+    margin: 15px;
+  }
+  .footer-wholeGrid {
+    margin: 80px 15px 0 15px;
+  }
+  .footer-wholeGrid,
+  .booknow-wholeGrid {
+    grid-template-columns: 1fr;
+  }
+  .footer-grids {
+    margin: 15px 0;
+  }
+  .introduction-title {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .display-none-when-small-screen {
+    display: none;
+  }
+}

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Travel page for Osaka, Japan built by On Tai To - a frontend developer."
+    />
+    <title>Activities | Osaka Travel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9bb5a0ce89.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./src/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"
+          ><span
+            ><img
+              class="japan-logo"
+              src="./src/Flag-map_of_Japan.svg.png" /></span
+          >OSAKA</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="index.html#introduction"
+                title="About Osaka"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="index.html#food-page"
+                title="Japanese Cuisine"
+                >Food</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="activities.html"
+                title="What to do in Osaka"
+                >Activities</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="booknow.html#booknow-page"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                title="Book your visit"
+              >
+                Book Now
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="booknow.html#booknow-page"
+                    title="See flights"
+                    >Flights</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="booknow.html#hotels"
+                    title="See hotels"
+                    >Hotels</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="booknow.html#tours"
+                    title="See tours"
+                    >Tours</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="activities-pageHero">
+      <div class="page-hero-text">
+        <h4 class="travelTitle">.What to do.</h4>
+        <h1 class="countryTitle">Journey</h1>
+        <h3 class="countrySubtitle">Experience 4 seasons in Osaka</h3>
+        <a href="activities.html#spring" title="Start your journey">Start</a>
+      </div>
+    </div>
+    <div class="bodyContainer">
+      <div class="spotifyEmbedContainer">
+        <div class="title-content-centered poppins-subtitles-white">
+          <span><i class="fa-solid fa-headphones headphoneIcon"></i></span>
+          Music
+        </div>
+        <iframe
+          style="border-radius: 12px"
+          src="https://open.spotify.com/embed/playlist/5YKm5Zt0AUdKrlrvWzUV6l?utm_source=generator&theme=0"
+          width="100%"
+          height="152"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div id="activities-page" class="activities-page new-page-margin-top">
+        <div id="spring" class="spring-section">
+          <div class="title-content-centered">
+            <h4 class="poppins-subtitles subtitle-margin-top">
+              Spring : Mar - May | 9⁰-20⁰C
+            </h4>
+          </div>
+          <div class="title-content-centered">
+            <h3 class="introduction-title">When the Sakura bloom (Hanami)</h3>
+          </div>
+
+          <div class="activities-cards-grid">
+            <div class="activities-cards card">
+              <img
+                class="img-adjustments"
+                src="src/osaka-castle.jpg"
+                alt="osaka-castle"
+              />
+              <div class="card-text-container">
+                <h3 class="card-titles">Osaka Castle Park</h3>
+                <p class="card-paragraphs">
+                  The park around the castle is filled with cherry trees and
+                  they make for some excellent photos with the castle in the
+                  background. Some of the trees are illuminated during cherry
+                  blossom season.
+                </p>
+
+                <div class="title-content-centered">
+                  <a
+                    href="https://www.osakacastlepark.jp/index.html?lang=en"
+                    target="_blank"
+                    title="Osaka Castle Website"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="activities-cards card">
+              <img
+                class="img-adjustments"
+                src="src/osaka-mint2.jpg"
+                alt="osaka-castle"
+              />
+              <div class="card-text-container">
+                <h3 class="card-titles">Osaka Mint Bureau</h3>
+                <p class="card-paragraphs">
+                  A short walk from Tenmabashi Station on the Keihan Line, the
+                  Osaka Mint (Osaka Zoheikyoku) is Osaka’s most popular cherry
+                  blossom spot. Opening dates vary from year to year, but they
+                  tend to be in early to mid-April.
+                </p>
+
+                <div class="title-content-centered">
+                  <a
+                    href="https://www.tripadvisor.com/Attraction_Review-g298566-d1407249-Reviews-Mint_Museum-Osaka_Osaka_Prefecture_Kinki.html"
+                    target="_blank"
+                    title="Osaka Mint Bureau on Trip Advisor"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="activities-cards card">
+              <img
+                class="img-adjustments"
+                src="src/Ryokuchi-koen-Park.jpg"
+                alt="osaka-castle"
+              />
+              <div class="card-text-container">
+                <h3 class="card-titles">Ryokuchi-koen Park</h3>
+                <p class="card-paragraphs">
+                  In Northern Osaka, near Ryokuchikoen Station on the Midusuji
+                  subway line, this spacious park has some lovely trees. This
+                  park contains the excellent Open-Air Museum of Japanese
+                  Farmhouses, which makes a great addition to cherry blossom
+                  viewing.
+                </p>
+
+                <div class="title-content-centered">
+                  <a
+                    href="https://insideosaka.com/osaka-cherry-blossoms-when-and-where/"
+                    target="_blank"
+                    title="Learn more about Ryokuchi-koen Park"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="summer-section">
+          <div class="title-content-centered">
+            <h4 class="poppins-subtitles subtitle-margin-top">
+              Summer: Jun - Sep | 25⁰-36⁰C
+            </h4>
+          </div>
+          <div class="title-content-centered">
+            <h3 class="introduction-title">The festivals (Matsuri)</h3>
+          </div>
+
+          <div class="activities-cards-grid">
+            <div class="activities-cards card">
+              <img
+                class="img-adjustments"
+                src="src/summerSonic.jpg"
+                alt="Summer-Sonic-Festival"
+              />
+              <div class="card-text-container">
+                <h3 class="card-titles">Summer Sonic Festival</h3>
+                <p class="card-paragraphs">
+                  The Summer Sonic Festival, also known as Supersonic, is an
+                  annual two- or three-day rock music festival held at the same
+                  time in Osaka and Chiba, Japan.
+                </p>
+                <h4 class="card-subtitles">Dates</h4>
+                <p class="card-paragraphs">19 - 20 Aug, 2023</p>
+                <div class="title-content-centered">
+                  <a
+                    href="https://www.summersonic.com/en/"
+                    target="_blank"
+                    title="Summer Sonic Festival Tickets"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="activities-cards card">
+              <img
+                class="img-adjustments"
+                src="src/sumiyoshi-festival.jpg"
+                alt="sumiyoshi-festival"
+              />
+              <div class="card-text-container">
+                <h3 class="card-titles">Sumiyoshi Matsuri</h3>
+                <p class="card-paragraphs">
+                  The Sumiyoshi Matsuri is a traditional Japanese festival and
+                  it happens over three days in and around Osaka's Sumiyoshi
+                  Taisha shrine.
+                </p>
+                <h4 class="card-subtitles">Dates</h4>
+                <p class="card-paragraphs">30 Jul - 1 Aug, 2023</p>
+                <div class="title-content-centered">
+                  <a
+                    href="https://japancheapo.com/events/sumiyoshi-matsuri/"
+                    target="_blank"
+                    title="Learn more about Sumiyoshi Matsuri"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="activities-cards card">
+              <img
+                class="img-adjustments"
+                src="src/aizen.jpg"
+                alt="aizen-festival"
+              />
+              <div class="card-text-container">
+                <h3 class="card-titles">Aizen Festival</h3>
+                <p class="card-paragraphs">
+                  The Aizen Festival is touted as the first major summer
+                  festival in Osaka of the year. Along with the Tenjin Festival
+                  and the Sumiyoshi Festival, it’s also known as one of the
+                  three big Osaka festivals.
+                </p>
+                <h4 class="card-subtitles">Dates</h4>
+                <p class="card-paragraphs">30 Jun - 1 Jul, 2023</p>
+                <div class="title-content-centered">
+                  <a
+                    href="https://japancheapo.com/events/aizen-festival/"
+                    target="_blank"
+                    title="Learn more about Aizen Festival"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="autumn-section">
+          <div class="title-content-centered">
+            <h4 class="poppins-subtitles subtitle-margin-top">
+              Autumn: Sep - Nov | 9⁰-21⁰C
+            </h4>
+          </div>
+          <div class="title-content-centered">
+            <h3 class="introduction-title">The Changing Leaves</h3>
+          </div>
+
+          <div class="activities-cards-grid">
+            <div class="activities-cards card">
+              <img
+                class="img-adjustments"
+                src="src/Hoshida-Park-Suspension-Bridge.jpeg"
+                alt="Hoshida-Park-Suspension-Bridge"
+              />
+              <div class="card-text-container">
+                <h3 class="card-titles">Hoshida Park Suspension Bridge</h3>
+                <p class="card-paragraphs">
+                  One of the most stunning autumn viewpoints in the whole of
+                  Japan. Offering views across the 105 hectare park, the largely
+                  wooden suspension bridge is 50 meters high and allows you to
+                  look down across the trees.
+                </p>
+                <h4 class="card-subtitles">Entry</h4>
+                <p class="card-paragraphs">free</p>
+                <div class="title-content-centered">
+                  <a
+                    href="https://japancheapo.com/entertainment/koyo-osaka-autumn-leaves/"
+                    target="_blank"
+                    title="Learn more about Hoshida Park Suspension Bridge"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="activities-cards card">
+              <img
+                class="img-adjustments"
+                src="src/expo-70.jpg"
+                alt="expo-70-park"
+              />
+              <div class="card-text-container">
+                <h3 class="card-titles">Expo ‘70 Commemorative Park</h3>
+                <p class="card-paragraphs">
+                  This large park was once used to host the pavilions of the
+                  Japan World Exposition in 1970. Featuring forests, lawns, a
+                  Japanese garden, thousands of cherry trees, and the Momiji
+                  Waterfall, it’s a great place to view the autumn leaves.
+                </p>
+                <h4 class="card-subtitles">Entry</h4>
+                <p class="card-paragraphs">
+                  £1.60 and possible additional charges
+                </p>
+                <div class="title-content-centered">
+                  <a
+                    href="https://www.expo70-park.jp/languages/english/"
+                    target="_blank"
+                    title="Learn more about Expo ‘70 Commemorative Park"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="activities-cards card">
+              <img
+                class="img-adjustments"
+                src="src/daiitoku-ji-autumn.jpg"
+                alt="daiitoku-ji-autumn"
+              />
+              <div class="card-text-container">
+                <h3 class="card-titles">Ushitakisan Daitoku-ji</h3>
+                <p class="card-paragraphs">
+                  An area of mountains well known for autumn foliage, designated
+                  as an Important Cultural Asset. Framed with the colors of
+                  autumn, the Tahōtō pagoda, bell tower, and Daishidō hall all
+                  make for stunning views.
+                </p>
+                <h4 class="card-subtitles">Entry</h4>
+                <p class="card-paragraphs">free</p>
+                <div class="title-content-centered">
+                  <a
+                    href="https://japancheapo.com/place/ushitakisan-daiitoku-ji-temple/"
+                    target="_blank"
+                    title="Learn more about Ushitakisan Daitoku-ji"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="winter-section">
+          <div class="title-content-centered">
+            <h4 class="poppins-subtitles subtitle-margin-top">
+              Winter : Dec - Feb | 2⁰-12⁰C
+            </h4>
+          </div>
+          <div class="title-content-centered">
+            <h3 class="introduction-title">Wonders that warm you up</h3>
+          </div>
+
+          <div class="activities-cards-grid">
+            <div class="activities-cards card">
+              <img
+                class="img-adjustments"
+                src="src/osaka-aquarium.jpg"
+                alt="osaka-aquarium"
+              />
+              <div class="card-text-container">
+                <h3 class="card-titles">
+                  Osaka Aquarium Kaiyūkan Illuminations
+                </h3>
+                <p class="card-paragraphs">
+                  Every evening from 5 o’clock the “KAIYUKAN Night Aquarium”
+                  shifts away from its daytime form and reveals its otherworldly
+                  side. The music inside changes, and the fish swim amidst the
+                  deep blue sea under light like moonlight. It is a beautiful
+                  and mystical sight.
+                </p>
+                <h4 class="card-subtitles">Dates</h4>
+                <p class="card-paragraphs">around 18 Nov - 5 Mar</p>
+                <div class="title-content-centered">
+                  <a
+                    href="https://www.kaiyukan.com/language/eng/night.html"
+                    target="_blank"
+                    title="Learn more about Osaka Aquarium Kaiyūkan Illuminations"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="activities-cards card">
+              <img
+                class="img-adjustments"
+                src="src/universal-studios-japan.jpg"
+                alt="universal-studios"
+              />
+              <div class="card-text-container">
+                <h3 class="card-titles">
+                  Universal Studios Japan No Limit! Christmas
+                </h3>
+                <p class="card-paragraphs">
+                  Universal Studios Japan is hosting a “Red Hot Christmas” — an
+                  energetic party with everyone’s favorite characters: Hello
+                  Kitty, the Sesame Street gang, Minions, Snoopy, and more all
+                  dressed up in Christmas costumes and dancing along to
+                  Christmas songs.
+                </p>
+                <h4 class="card-subtitles">Dates</h4>
+                <p class="card-paragraphs">around 11 Nov - 9 Jan</p>
+                <div class="title-content-centered">
+                  <a
+                    href="https://www.usj.co.jp/web/en/us"
+                    target="_blank"
+                    title="Universal Studios Website"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="activities-cards card">
+              <img class="img-adjustments" src="src/onsen.jpg" alt="onsen" />
+              <div class="card-text-container">
+                <h3 class="card-titles">Ten-nen Onsen Naniwa no Yu</h3>
+                <p class="card-paragraphs">
+                  A 100% natural hot spring located within 2km from Osaka
+                  Station. Naniwa's hot water is kind to everyone, it offers
+                  both indoor and outdoor hot springs, saunas and a restaurant.
+                </p>
+                <h4 class="card-subtitles">Fees</h4>
+                <p class="card-paragraphs">varies</p>
+                <div class="title-content-centered">
+                  <a
+                    href="https://naniwanoyu.com/"
+                    target="_blank"
+                    title="Learn more about Ten-nen Onsen Naniwa no Yu"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title-content-centered">
+        <a class="page-directory-links" href="booknow.html" title="Book now"
+          >Book now <span><i class="fa-solid fa-chevron-right"></i></span
+        ></a>
+      </div>
+    </div>
+    <div class="footer-container">
+      <div class="footer-wholeGrid">
+        <div class="footer-grids">
+          <h4 class="footer-titles">More about Osaka</h4>
+          <a
+            href="https://www.kansai-airport.or.jp/en/"
+            target="_blank"
+            title="Kansai Airport"
+            ><p class="footer-paragraphs">Kansai Airport</p></a
+          >
+          <a
+            href="https://osaka-info.jp/en/information/area-map-download/"
+            target="_blank"
+            title="OSAKA_INFO"
+            ><p class="footer-paragraphs">Osaka Map & Guide Book</p></a
+          >
+          <a
+            href="https://www.japan-guide.com/e/e4006.html#section_access"
+            target="_blank"
+            title="japan-guide.com"
+          >
+            <p class="footer-paragraphs">Transportation of Osaka</p></a
+          >
+        </div>
+        <div class="footer-grids display-none-when-small-screen">
+          <h4 class="footer-titles">About me</h4>
+          <p class="footer-paragraphs">Front-end Developer</p>
+          <p class="footer-paragraphs">UI/UX Designer</p>
+          <a
+            href="https://ontaito.com/"
+            target="_blank"
+            title="On Tai To's personal website"
+          >
+            <p class="footer-paragraphs">My Website and Other Projects</p></a
+          >
+        </div>
+        <div class="footer-grids">
+          <h4 class="footer-titles">About this project</h4>
+          <p class="footer-paragraphs">
+            This project contains no Ads and all are personal preferences
+          </p>
+          <a
+            class="display-none-when-small-screen"
+            href="https://www.shecodes.io/graduates/68848-on-tai-to"
+            target="_blank"
+            title="SheCodes profile"
+          >
+            <p class="footer-paragraphs">SheCodes Responsive Add-on</p></a
+          >
+
+          <a
+            class="display-none-when-small-screen"
+            href="https://github.com/EvaSuper0115/Japan-travel-landing-page"
+            target="_blank"
+            title="GitHub"
+          >
+            <p class="footer-paragraphs">View Source Code on GitHub</p></a
+          >
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
